@@ -1,0 +1,26 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  min-width: 320px;
+  min-height: 320px;
+  background: grey;
+}
+
+.item {
+  width: 32px;
+  height: 32px;
+  background: white;
+  border: 1px solid rgb(175, 175, 175);
+  box-sizing: border-box;
+}
+
+h1 {
+  text-shadow: 2px 2px 2px #079306;
+}
