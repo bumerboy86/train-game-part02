@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import "./App.css";
-import { Train } from "./components/Train/Train";
+import { Train } from "./components/Train/Train.tsx";
 
 function App() {
   const BOARD_LENGTH = 10;
